@@ -5,6 +5,7 @@ const initialState = {
     apiData: {}
 }
 
+// Writing a Thunk 'export const dataSlice' used
 export const dataSlice = createSlice({
     name: 'data',
     initialState,
